@@ -1,0 +1,27 @@
+
+trigger:
+- main
+
+pool:
+  name: axion-agent-pool
+  demands:
+  - Agent.OS -equals Linux
+
+steps:
+- checkout: self
+
+- script: |
+    set -e
+    echo "=== InfraPulse Linux Monitoring ==="
+    echo ""
+    echo "=== CPU Information ==="
+    uptime
+    echo ""
+    echo "=== Memory Usage ==="
+    free -h
+    echo ""
+    echo "=== Disk Usage ==="
+    df -h
+    echo ""
+    echo "Monitoring completed successfully."
+  displayName: Run Linux Monitoring
