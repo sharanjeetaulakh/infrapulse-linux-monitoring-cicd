@@ -16,6 +16,12 @@ This project automates Linux system monitoring using Azure DevOps Pipelines and 
 
 GitHub Repository → Azure DevOps Pipeline → Self-hosted Agent on Azure Linux VM → Monitoring Output
 
+
+## Pipeline Execution Output
+
+![Linux Monitoring Pipeline Output](monitoring-pipeline-success.png)
+
+
 ## Monitoring Commands
 
 | Command | Purpose |
