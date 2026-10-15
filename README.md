@@ -19,7 +19,7 @@ GitHub Repository → Azure DevOps Pipeline → Self-hosted Agent on Azure Linux
 
 ## Pipeline Execution Output
 
-![Linux Monitoring Pipeline Output](monitoring-pipeline-success.png)
+![Linux Monitoring Pipeline Output](monitoring-pipeline-successed.png)
 
 
 ## Monitoring Commands
